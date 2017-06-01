@@ -83,7 +83,7 @@ function jb_shipping_sync_report_html() {
 <hr>
 <div class="jbm_shipstation_sync">
 <div>
-<h2>TEST = Processing / Shipstation = Shipped</h2>
+<h2>Store = Processing / Shipstation = Shipped</h2>
 <?php
 	
 	$auth = base64_encode($jbm_ss_api_key.':'.$jbm_ss_api_secret);
