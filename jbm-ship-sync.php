@@ -53,7 +53,7 @@ function jb_shipping_sync_report_html() {
 	if (isset($_POST['jbm_ss_end_date'])) {
 		$before = $_POST['jbm_ss_end_date'];
 	}
-	$after = date('Y-m-d', strtotime($now.' -1 days'));
+	$after = date('Y-m-d', strtotime($now.' -2 days'));
 	if (isset($_POST['jbm_ss_start_date'])) {
 		$after = $_POST['jbm_ss_start_date'];
 	}
