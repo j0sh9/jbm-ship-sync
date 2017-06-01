@@ -325,7 +325,7 @@ function jb_shipping_sync_report_html() {
 </div>
 </div>
 <?php
-	endif;
+endif;
 }
 
 add_action( 'admin_menu', 'jb_shipping_sync_report' );
